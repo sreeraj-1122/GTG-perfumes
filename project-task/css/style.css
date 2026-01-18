@@ -1127,22 +1127,6 @@ img {
 .comparison-table tr:last-child td.highlight {
     border-radius: 0 0 16px 16px;
 }
-
-/* Specific Highlight adjustments to look like the image */
-.comparison-table th.highlight,
-.comparison-table td.highlight {
-    border-left: 2px dotted #a8e5b8;
-    border-right: 2px dotted #a8e5b8;
-}
-
-.comparison-table th.highlight {
-    border-top: 2px dotted #a8e5b8;
-}
-
-.comparison-table tr:last-child td.highlight {
-    border-bottom: 2px dotted #a8e5b8;
-}
-
 .comparison-table td img {
     width: 24px;
     height: 24px;
@@ -1221,7 +1205,7 @@ img {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 24px;
-    color: var(--white);
+    color: rgba(254, 243, 228, 1);
     line-height: 1.4;
 }
 
@@ -1234,7 +1218,7 @@ img {
 .newsletter-form input {
     flex: 1;
     padding: 14px 16px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 1);
     background: transparent;
     color: var(--white);
     font-size: 15px;
@@ -1244,7 +1228,7 @@ img {
 }
 
 .newsletter-form input::placeholder {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
 }
 
 .newsletter-form input:focus {
@@ -1270,12 +1254,12 @@ img {
 .newsletter-terms {
     font-size: 12px;
     font-weight: 300;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 1);
     line-height: 1.5;
 }
 
 .newsletter-terms a {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 1);
     text-decoration: underline;
 }
 
